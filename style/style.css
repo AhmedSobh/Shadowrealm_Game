@@ -317,6 +317,7 @@ body{
     max-width: 400px;
 
     .type{
+        font-weight: 700;
         padding: 10px;
         color: #ff6b33;
     }

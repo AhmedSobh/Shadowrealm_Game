@@ -78,7 +78,7 @@ const container = document.querySelector(".creatures-grid");
 creatures.forEach((creature) => {
   const card = `
         <div class="creature-card">
-      <h1 class="creature-icon"><img src="${creature.img}" alt="${creature.name}"></h1>
+      <h1 class="creature-icon"><img src="assets/${creature.img}" alt="${creature.name}"></h1>
       <h3>${creature.name}</h3>
       <div class="creature-status">
         <p>ATK: ${creature.atk}</p>
