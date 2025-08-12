@@ -1,0 +1,43 @@
+@media screen and (max-width: 900px) {
+  .navbar {
+    width: 100%;
+    .nav-menu {
+      visibility: hidden;
+    }
+    .nav-logo {
+      min-width: 200px;
+    }
+  }
+  .hero_cards {
+    visibility: hidden;
+  }
+  .feature-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .Battles-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .creatures-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .download-btncontainer {
+    flex-direction: column;
+  }
+  .footer-grid {
+      grid-template-columns: repeat(1, 1fr);
+  }
+}
+@media screen and (1200px > width > 900px) {
+  .feature-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .Battles-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .creatures-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .footer-grid{
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
